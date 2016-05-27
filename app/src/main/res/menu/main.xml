@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_settingsw"
+        android:visible="true"
+        android:icon="@drawable/refresh"
+        android:title="Refresh"
+        app:showAsAction="always" />
+    <group android:visible="true"
+        android:enabled="true"
+        android:id="@+id/category"
+        >
+        <item
+            android:id="@+id/physics"
+            android:visible="true"
+            android:title="Physics"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/chemistry"
+            android:visible="true"
+            android:title="Chemistry"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/maths"
+            android:visible="true"
+            android:title="Mathematics"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/social"
+            android:visible="true"
+            android:title="Social studies"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/others"
+            android:visible="true"
+            android:title="others"
+            app:showAsAction="never"
+            />
+
+    </group>
+
+</menu>
